@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		654ABDC61BF0D0C1003DD5D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 654ABDC51BF0D0C1003DD5D5 /* main.m */; };
+		654ABDC91BF0D0C1003DD5D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 654ABDC81BF0D0C1003DD5D5 /* AppDelegate.m */; };
+		654ABDCC1BF0D0C1003DD5D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654ABDCB1BF0D0C1003DD5D5 /* ViewController.m */; };
+		654ABDCF1BF0D0C2003DD5D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654ABDCD1BF0D0C2003DD5D5 /* Main.storyboard */; };
+		654ABDD11BF0D0C3003DD5D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654ABDD01BF0D0C3003DD5D5 /* Assets.xcassets */; };
+		654ABDD41BF0D0C3003DD5D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654ABDD21BF0D0C3003DD5D5 /* LaunchScreen.storyboard */; };
+		654ABDDF1BF0D0C4003DD5D5 /* LABA_TVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 654ABDDE1BF0D0C4003DD5D5 /* LABA_TVTests.m */; };
+		654ABDEA1BF0D0C4003DD5D5 /* LABA_TVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 654ABDE91BF0D0C4003DD5D5 /* LABA_TVUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		654ABDDB1BF0D0C4003DD5D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654ABDB91BF0D0C0003DD5D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 654ABDC01BF0D0C0003DD5D5;
+			remoteInfo = "LABA TV";
+		};
+		654ABDE61BF0D0C4003DD5D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654ABDB91BF0D0C0003DD5D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 654ABDC01BF0D0C0003DD5D5;
+			remoteInfo = "LABA TV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		654ABDC11BF0D0C1003DD5D5 /* LABA TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LABA TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		654ABDC51BF0D0C1003DD5D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		654ABDC71BF0D0C1003DD5D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		654ABDC81BF0D0C1003DD5D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		654ABDCA1BF0D0C1003DD5D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		654ABDCB1BF0D0C1003DD5D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		654ABDCE1BF0D0C2003DD5D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		654ABDD01BF0D0C3003DD5D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		654ABDD31BF0D0C3003DD5D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		654ABDD51BF0D0C3003DD5D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654ABDDA1BF0D0C4003DD5D5 /* LABA TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LABA TVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		654ABDDE1BF0D0C4003DD5D5 /* LABA_TVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LABA_TVTests.m; sourceTree = "<group>"; };
+		654ABDE01BF0D0C4003DD5D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654ABDE51BF0D0C4003DD5D5 /* LABA TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LABA TVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		654ABDE91BF0D0C4003DD5D5 /* LABA_TVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LABA_TVUITests.m; sourceTree = "<group>"; };
+		654ABDEB1BF0D0C5003DD5D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		654ABDBE1BF0D0C0003DD5D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654ABDD71BF0D0C4003DD5D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654ABDE21BF0D0C4003DD5D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		654ABDB81BF0D0C0003DD5D5 = {
+			isa = PBXGroup;
+			children = (
+				654ABDC31BF0D0C1003DD5D5 /* LABA TV */,
+				654ABDDD1BF0D0C4003DD5D5 /* LABA TVTests */,
+				654ABDE81BF0D0C4003DD5D5 /* LABA TVUITests */,
+				654ABDC21BF0D0C1003DD5D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		654ABDC21BF0D0C1003DD5D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				654ABDC11BF0D0C1003DD5D5 /* LABA TV.app */,
+				654ABDDA1BF0D0C4003DD5D5 /* LABA TVTests.xctest */,
+				654ABDE51BF0D0C4003DD5D5 /* LABA TVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		654ABDC31BF0D0C1003DD5D5 /* LABA TV */ = {
+			isa = PBXGroup;
+			children = (
+				654ABDC71BF0D0C1003DD5D5 /* AppDelegate.h */,
+				654ABDC81BF0D0C1003DD5D5 /* AppDelegate.m */,
+				654ABDCA1BF0D0C1003DD5D5 /* ViewController.h */,
+				654ABDCB1BF0D0C1003DD5D5 /* ViewController.m */,
+				654ABDCD1BF0D0C2003DD5D5 /* Main.storyboard */,
+				654ABDD01BF0D0C3003DD5D5 /* Assets.xcassets */,
+				654ABDD21BF0D0C3003DD5D5 /* LaunchScreen.storyboard */,
+				654ABDD51BF0D0C3003DD5D5 /* Info.plist */,
+				654ABDC41BF0D0C1003DD5D5 /* Supporting Files */,
+			);
+			path = "LABA TV";
+			sourceTree = "<group>";
+		};
+		654ABDC41BF0D0C1003DD5D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				654ABDC51BF0D0C1003DD5D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		654ABDDD1BF0D0C4003DD5D5 /* LABA TVTests */ = {
+			isa = PBXGroup;
+			children = (
+				654ABDDE1BF0D0C4003DD5D5 /* LABA_TVTests.m */,
+				654ABDE01BF0D0C4003DD5D5 /* Info.plist */,
+			);
+			path = "LABA TVTests";
+			sourceTree = "<group>";
+		};
+		654ABDE81BF0D0C4003DD5D5 /* LABA TVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				654ABDE91BF0D0C4003DD5D5 /* LABA_TVUITests.m */,
+				654ABDEB1BF0D0C5003DD5D5 /* Info.plist */,
+			);
+			path = "LABA TVUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		654ABDC01BF0D0C0003DD5D5 /* LABA TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654ABDEE1BF0D0C5003DD5D5 /* Build configuration list for PBXNativeTarget "LABA TV" */;
+			buildPhases = (
+				654ABDBD1BF0D0C0003DD5D5 /* Sources */,
+				654ABDBE1BF0D0C0003DD5D5 /* Frameworks */,
+				654ABDBF1BF0D0C0003DD5D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LABA TV";
+			productName = "LABA TV";
+			productReference = 654ABDC11BF0D0C1003DD5D5 /* LABA TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		654ABDD91BF0D0C4003DD5D5 /* LABA TVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654ABDF11BF0D0C5003DD5D5 /* Build configuration list for PBXNativeTarget "LABA TVTests" */;
+			buildPhases = (
+				654ABDD61BF0D0C4003DD5D5 /* Sources */,
+				654ABDD71BF0D0C4003DD5D5 /* Frameworks */,
+				654ABDD81BF0D0C4003DD5D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				654ABDDC1BF0D0C4003DD5D5 /* PBXTargetDependency */,
+			);
+			name = "LABA TVTests";
+			productName = "LABA TVTests";
+			productReference = 654ABDDA1BF0D0C4003DD5D5 /* LABA TVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		654ABDE41BF0D0C4003DD5D5 /* LABA TVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654ABDF41BF0D0C5003DD5D5 /* Build configuration list for PBXNativeTarget "LABA TVUITests" */;
+			buildPhases = (
+				654ABDE11BF0D0C4003DD5D5 /* Sources */,
+				654ABDE21BF0D0C4003DD5D5 /* Frameworks */,
+				654ABDE31BF0D0C4003DD5D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				654ABDE71BF0D0C4003DD5D5 /* PBXTargetDependency */,
+			);
+			name = "LABA TVUITests";
+			productName = "LABA TVUITests";
+			productReference = 654ABDE51BF0D0C4003DD5D5 /* LABA TVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		654ABDB91BF0D0C0003DD5D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = LABA;
+				TargetAttributes = {
+					654ABDC01BF0D0C0003DD5D5 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					654ABDD91BF0D0C4003DD5D5 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 654ABDC01BF0D0C0003DD5D5;
+					};
+					654ABDE41BF0D0C4003DD5D5 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 654ABDC01BF0D0C0003DD5D5;
+					};
+				};
+			};
+			buildConfigurationList = 654ABDBC1BF0D0C0003DD5D5 /* Build configuration list for PBXProject "LABA TV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 654ABDB81BF0D0C0003DD5D5;
+			productRefGroup = 654ABDC21BF0D0C1003DD5D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				654ABDC01BF0D0C0003DD5D5 /* LABA TV */,
+				654ABDD91BF0D0C4003DD5D5 /* LABA TVTests */,
+				654ABDE41BF0D0C4003DD5D5 /* LABA TVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		654ABDBF1BF0D0C0003DD5D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654ABDD41BF0D0C3003DD5D5 /* LaunchScreen.storyboard in Resources */,
+				654ABDD11BF0D0C3003DD5D5 /* Assets.xcassets in Resources */,
+				654ABDCF1BF0D0C2003DD5D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654ABDD81BF0D0C4003DD5D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654ABDE31BF0D0C4003DD5D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		654ABDBD1BF0D0C0003DD5D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654ABDCC1BF0D0C1003DD5D5 /* ViewController.m in Sources */,
+				654ABDC91BF0D0C1003DD5D5 /* AppDelegate.m in Sources */,
+				654ABDC61BF0D0C1003DD5D5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654ABDD61BF0D0C4003DD5D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654ABDDF1BF0D0C4003DD5D5 /* LABA_TVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654ABDE11BF0D0C4003DD5D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654ABDEA1BF0D0C4003DD5D5 /* LABA_TVUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		654ABDDC1BF0D0C4003DD5D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 654ABDC01BF0D0C0003DD5D5 /* LABA TV */;
+			targetProxy = 654ABDDB1BF0D0C4003DD5D5 /* PBXContainerItemProxy */;
+		};
+		654ABDE71BF0D0C4003DD5D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 654ABDC01BF0D0C0003DD5D5 /* LABA TV */;
+			targetProxy = 654ABDE61BF0D0C4003DD5D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		654ABDCD1BF0D0C2003DD5D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654ABDCE1BF0D0C2003DD5D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		654ABDD21BF0D0C3003DD5D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654ABDD31BF0D0C3003DD5D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		654ABDEC1BF0D0C5003DD5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		654ABDED1BF0D0C5003DD5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		654ABDEF1BF0D0C5003DD5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LABA TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.laba.LABA-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		654ABDF01BF0D0C5003DD5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LABA TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.laba.LABA-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		654ABDF21BF0D0C5003DD5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "LABA TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.laba.LABA-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LABA TV.app/LABA TV";
+			};
+			name = Debug;
+		};
+		654ABDF31BF0D0C5003DD5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "LABA TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.laba.LABA-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LABA TV.app/LABA TV";
+			};
+			name = Release;
+		};
+		654ABDF51BF0D0C5003DD5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LABA TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.laba.LABA-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LABA TV";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		654ABDF61BF0D0C5003DD5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LABA TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.laba.LABA-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LABA TV";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		654ABDBC1BF0D0C0003DD5D5 /* Build configuration list for PBXProject "LABA TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654ABDEC1BF0D0C5003DD5D5 /* Debug */,
+				654ABDED1BF0D0C5003DD5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654ABDEE1BF0D0C5003DD5D5 /* Build configuration list for PBXNativeTarget "LABA TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654ABDEF1BF0D0C5003DD5D5 /* Debug */,
+				654ABDF01BF0D0C5003DD5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		654ABDF11BF0D0C5003DD5D5 /* Build configuration list for PBXNativeTarget "LABA TVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654ABDF21BF0D0C5003DD5D5 /* Debug */,
+				654ABDF31BF0D0C5003DD5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		654ABDF41BF0D0C5003DD5D5 /* Build configuration list for PBXNativeTarget "LABA TVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654ABDF51BF0D0C5003DD5D5 /* Debug */,
+				654ABDF61BF0D0C5003DD5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 654ABDB91BF0D0C0003DD5D5 /* Project object */;
+}
